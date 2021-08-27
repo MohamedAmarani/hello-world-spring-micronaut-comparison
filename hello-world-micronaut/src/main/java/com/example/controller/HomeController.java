@@ -7,6 +7,7 @@ import io.micronaut.http.annotation.Produces;
 
 @Controller("/hello")
 public class HomeController {
+
     @Get
     @Produces(MediaType.TEXT_PLAIN)
     public String index() {
